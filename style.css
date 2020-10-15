@@ -1,0 +1,84 @@
+body{
+    font-family: 'Rubik', sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Karma', serif;
+}
+p{
+    font-size: 18px;
+}
+a{
+    color: #1f82c5;
+    font-weight: 500;
+}
+.logo{
+    width: 57px;
+}
+.navbar ul li a{
+    margin: 0 15px 0 15px;
+    font-size: 18px;
+}
+.foodie{
+    color: goldenrod;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    vertical-align: middle;
+}
+.blog{
+    color:darkseagreen;
+    font-size: 30px;
+    vertical-align: middle;
+}
+.blog-intro{
+    background-color: #dcdcdc!important;
+}
+.carousel-item img{
+    height: 350px;
+    object-fit: cover;
+}
+.carousel-caption{
+    background-color: black;
+    opacity: 67%;
+    /* padding: 3rem; */
+    right: 25%;
+    left: 25%;
+}
+.card{
+    background-color: #f8f9fa!important;
+}
+.card-img-top{
+    max-height: 200px;
+    object-fit: cover;
+    height: 200px;
+}
+
+footer{
+    background-color: #343a40!important;
+}
+
+@media only screen and (max-width: 767px) {
+    .carousel-item img{
+        height: 250px;
+        object-fit: cover;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    .card-img-top {
+        max-height: 150px;
+        object-fit: cover;
+        height: 150px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .card-img-top {
+        max-height: 120px;
+        object-fit: cover;
+        height:120px
+    }
+    .card-title{
+        font-size: 1.3rem;
+    }
+    .card-text{
+        font-size: 14px;
+    }
+}
