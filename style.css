@@ -18,6 +18,9 @@ a{
     margin: 0 15px 0 15px;
     font-size: 18px;
 }
+.navbar{
+    border-bottom: 10px solid goldenrod;
+}
 .foodie{
     color: goldenrod;
     font-family: 'Lobster', cursive;
@@ -31,6 +34,9 @@ a{
 }
 .blog-intro{
     background-color: #dcdcdc!important;
+}
+.carousel{
+    border-bottom: 10px solid goldenrod;
 }
 .carousel-item img{
     height: 350px;
@@ -54,6 +60,7 @@ a{
 
 footer{
     background-color: #343a40!important;
+    border-top: 10px solid goldenrod;
 }
 
 @media only screen and (max-width: 767px) {
