@@ -40,7 +40,7 @@ function loginEventHandler()
     var errorFlag = false;
     errorMessageElement.innerHTML=""; 
 
-    if(userName.value == " ")
+    if(userName.value == "")
     {
         errorMessageElement.innerHTML += "<br />Username cannot be empty";
         errorFlag = true;
